@@ -55,20 +55,11 @@ A Python script for generating Triller accounts automatically using CAPTCHA solv
 1. **Run the script:**
 
    ```bash
-   python triller_account_generator.py
+   python main.py
    ```
 
 2. **Enter the number of threads** when prompted. Each thread will attempt to create accounts in parallel.
 
-## Code Structure
-
-- `load_config()`: Loads configuration settings from `config.json`.
-- `get_timestamp()`: Generates a timestamp for logging.
-- `get_captcha()`: Requests and solves a ReCAPTCHA challenge.
-- `create_mail()`: Generates a disposable email address.
-- `create_acc(mail, captcha)`: Creates a Triller account using the provided email and CAPTCHA solution.
-- `worker()`: Runs the account creation process continuously.
-- `start(num_threads)`: Starts multiple threads for parallel account creation.
 
 ## Notes
 
