@@ -1,4 +1,4 @@
 {
-    "captcha_key": "a14ce073acee4ce4adc47dbc0ba27651528679",
-    "proxy": "fanciful_smoluchowski8882-zone-residential-countryCode-IN:409987c3-791c-fcf5-5e37-b7b4f9f6e06f@resi-america-gateways.databay.com:7676"
+    "captcha_key": "API_KEY",
+    "proxy": "USER:PASS@IP:PORT"
 }
