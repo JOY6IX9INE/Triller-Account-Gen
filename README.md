@@ -46,16 +46,8 @@ A Python script for generating Triller accounts automatically using CAPTCHA solv
 2. **Enter the number of threads** when prompted. Each thread will attempt to create accounts in parallel.
 
 
-## Notes
+# Disclaimer
+This tool is created for educational purposes and ethical use only. Any misuse of this tool for malicious purposes is not condoned. The developers of this tool are not responsible for any illegal or unethical activities carried out using this tool.
 
-- Ensure that you have the necessary permissions and legal rights to use this script for your purposes.
-- This script uses proxies and disposable emails, which might be flagged by the target service if overused.
-- This script is provided for educational purposes. Misuse of the script can lead to legal consequences.
+[![Star History Chart](https://api.star-history.com/svg?repos=JOY6IX9INE/Triller-Account-Gen&type=Date)](https://star-history.t9t.io/#JOY6IX9INE/Triller-Account-Gen&Date)
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Disclaimer
-
-This tool is for educational purposes only. The author is not responsible for any misuse or legal issues arising from the use of this script.
