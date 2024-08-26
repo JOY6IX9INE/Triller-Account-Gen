@@ -4,7 +4,7 @@ A Python script for generating Triller accounts automatically using CAPTCHA solv
 
 ## Features
 
-- **Automated CAPTCHA Solving:** Integrates with the [Ez-Captcha](https://ez-captcha.com) API to solve ReCAPTCHA challenges automatically.
+- **Automated CAPTCHA Solving:** Integrates with the [Ez-Captcha](https://dashboard.ez-captcha.com/#/register?inviteCode=QTaxJrpKMIJ) API to solve ReCAPTCHA challenges automatically.
 - **Disposable Email Generation:** Uses the Mail API to create disposable email addresses for Triller account registration.
 - **Multithreaded Account Creation:** Supports running multiple threads to create accounts in parallel.
 
