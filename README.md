@@ -14,6 +14,7 @@ A Python script for generating Triller accounts automatically using CAPTCHA solv
 - Necessary Python packages (`faker`, `requests`, etc.)
 - A valid [Ez-Captcha](https://dashboard.ez-captcha.com/#/register?inviteCode=QTaxJrpKMIJ) API key
 - Basic understanding of Python and threading
+- Brain Cells :)
 
 ## Setup
 
