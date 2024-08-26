@@ -1,4 +1,4 @@
 {
-    "captcha_key": "API_KEY",
+    "captcha_key": "YOUR_EZ_CAPTCHA_API_KEY",
     "proxy": "USER:PASS@IP:PORT"
 }
