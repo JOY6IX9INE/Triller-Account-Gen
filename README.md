@@ -12,26 +12,18 @@ A Python script for generating Triller accounts automatically using CAPTCHA solv
 
 - Python 3.6+
 - Necessary Python packages (`faker`, `requests`, etc.)
-- A valid [Ez-Captcha](https://ez-captcha.com) API key
-- Access to a Mail API service that provides disposable email addresses
+- A valid [Ez-Captcha](https://dashboard.ez-captcha.com/#/register?inviteCode=QTaxJrpKMIJ) API key
 - Basic understanding of Python and threading
 
 ## Setup
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/triller-account-generator.git
-   cd triller-account-generator
-   ```
-
-2. **Install required Python packages:**
+1. **Install required Python packages:**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Configure the script:**
+2. **Configure the script:**
 
    Create a `config.json` file in the root directory with the following structure:
 
@@ -42,13 +34,7 @@ A Python script for generating Triller accounts automatically using CAPTCHA solv
       }
    ```
 
-   Replace `"YOUR_EZ_CAPTCHA_API_KEY"` with your actual Ez-Captcha API key and `"YOUR_PROXY_SERVER"` with your proxy server if needed.
-
-4. **Create the output directory:**
-
-   ```bash
-   mkdir output
-   ```
+   Replace `"YOUR_EZ_CAPTCHA_API_KEY"` with your actual Ez-Captcha API key and `"USER:PASS@IP:PORT"` with your proxy server if needed.
 
 ## Usage
 
