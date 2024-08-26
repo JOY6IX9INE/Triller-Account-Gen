@@ -26,8 +26,6 @@ A Python script for generating Triller accounts automatically using CAPTCHA solv
 
 2. **Configure the script:**
 
-   Create a `config.json` file in the root directory with the following structure:
-
    ```json
       {
           "captcha_key": "YOUR_EZ_CAPTCHA_API_KEY",
