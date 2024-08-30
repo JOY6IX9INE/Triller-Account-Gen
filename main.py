@@ -11,7 +11,7 @@ def load_config():
 
 config = load_config()
 mail_api = 'https://api.mail.gw'
-faker = Faker('en_IN')
+faker = Faker()
 api_key = config.get('captcha_key')
 proxy = config.get('proxy')
 proxies = {'http': f'http://{proxy}', 'https': f'http://{proxy}'}
@@ -84,7 +84,7 @@ def create_mail():
                 domains = [item["domain"] for item in get_domain.json()["hydra:member"]]
                 domain = random.choice(domains)
 
-                m1 = faker.last_name()
+                m1 = faker.first_name()
                 m2 = ''.join([str(random.randint(0, 9)) for _ in range(5)])
                 mail = f'{m1}{m2}@{domain}'.lower()
 
@@ -119,7 +119,7 @@ def create_acc(mail, captcha):
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
     }
 
-    m1 = faker.last_name()
+    m1 = faker.first_name()
     m2 = ''.join([str(random.randint(0, 9)) for _ in range(5)])
     password = ''.join(random.choices(string.ascii_letters, k=8))
     json_data = {
